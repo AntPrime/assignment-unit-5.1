@@ -24,7 +24,7 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
-let fullName = me.firstname + me.lastname;
+let fullName = `${me.firstname} ${me.lastname}`;
 console.log(fullName)
 
 
